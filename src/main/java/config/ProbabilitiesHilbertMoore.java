@@ -3,18 +3,18 @@ package config;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Probabilities {
+public class ProbabilitiesHilbertMoore {
 
-    public static double z1 = 0.355;
-    public static double z5 = 0.28;
-    public static double z4 = 0.1;
-    public static double z6 = 0.073;
-    public static double z10 = 0.054;
-    public static double z8 = 0.046;
-    public static double z7 = 0.034;
-    public static double z2 = 0.03;
-    public static double z9 = 0.018;
-    public static double z3 = 0.01;
+    public static double z1 = 0.205;
+    public static double z5 = 0.1;
+    public static double z4 = 0.126;
+    public static double z6 = 0.07;
+    public static double z10 = 0.018;
+    public static double z8 = 0.05;
+    public static double z7 = 0.052;
+    public static double z2 = 0.19;
+    public static double z9 = 0.019;
+    public static double z3 = 0.17;
 
     public static Map<String, Double> getProbabilities() {
         Map<String, Double> probs = new HashMap<>();
